@@ -71,21 +71,21 @@ const Article = ({ article, categories }) => {
 						{/* icons */}
 						<div className="flex justify-center">
 							{/* Facebook */}
-							<Link href={`https://www.facebook.com/sharer/sharer.php?u=https://sagitariodemonagas.vercel.app/articulo/${article.slug}`}>
+							<Link href={`https://www.facebook.com/sharer/sharer.php?u=https://sagitariomonagas.vercel.app/articulo/${article.slug}`}>
 								<a target="_blank" className="px-3">
 									<Facebook />
 								</a>
 							</Link>
 
 							{/* Twitter */}
-							<Link href={`https://twitter.com/intent/tweet?url=https://sagitariodemonagas.vercel.app/articulo/${article.slug}`}>
+							<Link href={`https://twitter.com/intent/tweet?url=https://sagitariomonagas.vercel.app/articulo/${article.slug}`}>
 								<a target="_blank" className="px-3">
 									<Twitter />
 								</a>
 							</Link>
 
 							{/* Whatsapp */}
-							<Link href={`https://api.whatsapp.com/send?text=https://sagitariodemonagas.vercel.app/articulo/${article.slug}`}>
+							<Link href={`https://api.whatsapp.com/send?text=https://sagitariomonagas.vercel.app/articulo/${article.slug}`}>
 								<a target="_blank" className="px-3">
 									<Whatsapp />
 								</a>
